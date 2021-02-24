@@ -14,7 +14,18 @@ export default function Shuffler() {
         setName('');
     }
 
+    const listItems = list.map((item, index) => {
+        return <li>{item}</li>
+    })
+    
     return (
-        <InputBox name={name} setName={handleChange} handlePostClick={handlePostClick}/>
+        <>
+            <InputBox name={name} setName={handleChange} handlePostClick={handlePostClick}/>
+            <div className='row'>
+                <div className="list-box">
+                    <ul>{listItems}</ul>
+                </div>
+            </div>
+        </>
     )
 }
