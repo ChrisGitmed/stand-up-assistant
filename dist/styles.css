@@ -3,7 +3,20 @@ body {
     margin: 0;
 }
 .title {
+    font-family: 'Roboto-Condensed', sans-serif;
     text-align: center;
-    padding-bottom: 1rem;
     border-bottom: 5px blue solid;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
 }

@@ -55,7 +55,10 @@ export default function Title() {
     const today = `${day}, ${month} ${date.getDate()}`
     return (
         <div>
-            <h1 className="title">Stand-Up! {today}</h1>
+            <div className="row title space-around align-center">
+                <h1>LFZ Stand-up</h1>
+                <h1>{today}</h1>
+            </div>
         </div>
     )
 }
