@@ -1,0 +1,49 @@
+.hidden {
+    display: none !important;
+}
+body {
+    background-color: #DDD;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.title {
+    font-family: 'Roboto-Condensed', sans-serif;
+    text-align: center;
+    border-bottom: 5px blue solid;
+}
+
+.input-box {
+    margin: 2rem 0rem;
+    text-align: center;
+}
+
+.list, .shuffled-list {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+.shuffled-list {
+    list-style-type: decimal;}
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-around;
+}
