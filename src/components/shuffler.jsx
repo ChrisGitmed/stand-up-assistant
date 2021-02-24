@@ -65,16 +65,14 @@ export default function Shuffler() {
         return <li key={index}>{item}</li>
     })
 
+    const listClassString = listItems.length > 0 ? 'list' : 'hidden';
+    const shuffledListClassString = shuffledList.length > 0 ? 'shuffled-list' : 'hidden'; 
     return (
         <>  
             <InputBox name={name} setName={handleChange} handlePostClick={handlePostClick} handleKeyDown={handleKeyDown} handleShuffleClick={handleShuffleClick}/>
-            <div className="row justify-space-around">
-                <div className="list-box">
-                    <ul>{listItems}</ul>
-                </div>
-                <div className="shuffled-list-box">
-                    <ul>{shuffledListItems}</ul>
-                </div>
+            <div className="row space-around">
+                <ul className={listClassString}>{listItems}</ul>
+                <ul className={shuffledListClassString}>{shuffledListItems}</ul>
             </div>
         </>
     )
