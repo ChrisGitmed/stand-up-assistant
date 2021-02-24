@@ -12,7 +12,6 @@ export default function Shuffler() {
     }
 
     function handlePostClick(event) {
-        console.log('name: ', name)
         if (name !== '') {
             if (isShuffled) {
                 shuffledList.push(name);
