@@ -20,9 +20,9 @@ export default function Shuffler() {
             setName('');
         }
     }
-    
+
     const listItems = list.map((item, index) => {
-        return <li>{item}</li>
+        return <li key={index}>{item}</li>
     })
 
     return (
