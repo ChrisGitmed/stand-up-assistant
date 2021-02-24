@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PageContainer from './page-container';
+import PageContainer from './components/page-container';
 
 ReactDOM.render(
     <PageContainer />,
