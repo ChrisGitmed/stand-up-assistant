@@ -12,8 +12,14 @@ export default function Shuffler() {
     }
 
     function handlePostClick(event) {
-        list.push(name);
-        setName('');
+        console.log('name: ', name)
+        if (name !== '') {
+            if (isShuffled) {
+                shuffledList.push(name);
+            }
+            list.push(name);
+            setName('');
+        }
     }
 
     function handleKeyDown(event) {
