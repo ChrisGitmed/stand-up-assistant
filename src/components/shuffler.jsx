@@ -61,9 +61,8 @@ export default function Shuffler() {
     })
 
     return (
-        <>
-            <InputBox name={name} setName={handleChange} handlePostClick={handlePostClick} handleKeyDown={handleKeyDown}/>
-            <button onClick={handleShuffleClick}>Shuffle</button>
+        <>  
+            <InputBox name={name} setName={handleChange} handlePostClick={handlePostClick} handleKeyDown={handleKeyDown} handleShuffleClick={handleShuffleClick}/>
             <div className="row justify-space-around">
                 <div className="list-box">
                     <ul>{listItems}</ul>
