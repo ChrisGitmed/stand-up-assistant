@@ -14,13 +14,20 @@ export default function Shuffler() {
         setName('');
     }
 
+    function handleKeyDown(event) {
+        if (event.key === 'Enter') {
+            list.push(name);
+            setName('');
+        }
+    }
+    
     const listItems = list.map((item, index) => {
         return <li>{item}</li>
     })
-    
+
     return (
         <>
-            <InputBox name={name} setName={handleChange} handlePostClick={handlePostClick}/>
+            <InputBox name={name} setName={handleChange} handlePostClick={handlePostClick} handleKeyDown={handleKeyDown}/>
             <div className='row'>
                 <div className="list-box">
                     <ul>{listItems}</ul>
