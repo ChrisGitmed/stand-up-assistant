@@ -5,8 +5,8 @@ export default function InputBox({ name, setName, handlePostClick, handleKeyDown
     return (
         <div className="input-box">
             <input type="text" value={name} onChange={setName} onKeyDown={handleKeyDown}/>
-            <button onClick={handlePostClick}>+</button>
-            <button onClick={handleShuffleClick}>Shuffle</button>
+            <button className="green-button" onClick={handlePostClick}><span className="lnr lnr-plus-circle center"></span></button>
+            <button className="shuffle-button" onClick={handleShuffleClick}>Shuffle</button>
         </div>
     )
 }
