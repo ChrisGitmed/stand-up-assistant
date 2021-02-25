@@ -59,6 +59,7 @@ li {
 
 .green-button:hover {
     background-color: #32d658;
+    border: 2px solid #32d658;
     transition: 0.2s;
 }
 
