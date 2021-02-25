@@ -34,12 +34,15 @@ li {
 .input-box {
     margin: 2rem 0rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .input-box > input,
 .input-box > button {
     font-size: 1.6rem;
 }
+
 .shuffled-list {
     list-style-type: decimal;
     border-left: 5px solid #28A745;
@@ -48,7 +51,9 @@ li {
 .green-button {
     background-color: #28A745;
     border: 2px solid #28A745;
-    cursor:pointer;
+    border-radius: 1px;
+    cursor: pointer;
+    padding-top: 0.25rem;
     transition: 0.2s;
 }
 
