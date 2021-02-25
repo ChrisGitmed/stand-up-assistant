@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ChrisGitmed/stand-up-assistant/issues"
   },
-  "homepage": "https://ChrisGitmed.github.io/stand-up-assistant/",
+  "homepage": "https://chrisgitmed.github.io/stand-up-assistant/",
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
