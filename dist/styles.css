@@ -18,6 +18,12 @@ ul {
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 25%));
 }
 
+li {
+    margin: .25rem 0rem;
+    font-size: 1.2rem;
+    padding-left: 0.2rem;
+}
+
 .title {
     background-color: #343A3F;
     color: #F8F9FA;
@@ -30,6 +36,10 @@ ul {
     text-align: center;
 }
 
+.input-box > input,
+.input-box > button {
+    font-size: 1.6rem;
+}
 .shuffled-list {
     list-style-type: decimal;
     border-left: 5px solid #28A745;
@@ -49,10 +59,11 @@ ul {
 
 .shuffle-button {
     background-color: #FFF;
-    border: 1px solid #28A745;
+    border: 1px solid #343A3F;
     border-radius: 5px;
     margin-left: .25rem;
     transition: 0.2s;
+    padding: .2rem;
 }
 
 .shuffle-button:hover {
