@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch --mode=development --devtool=source-map"
+    "watch": "webpack --watch --mode=development --devtool=source-map",
+    "predepoloy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ChrisGitmed/stand-up-assistant/issues"
   },
-  "homepage": "https://github.com/ChrisGitmed/stand-up-assistant#readme",
+  "homepage": "https://ChrisGitmed.github.io/stand-up-assistant",
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -26,6 +28,7 @@
     "@babel/core": "^7.13.1",
     "@babel/plugin-transform-react-jsx": "^7.12.17",
     "babel-loader": "^8.2.2",
+    "gh-pages": "^3.1.0",
     "webpack": "^5.24.1",
     "webpack-cli": "^4.5.0"
   }
