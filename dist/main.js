@@ -8002,9 +8002,12 @@ function InputBox({
   handleShuffleClick
 }) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "input-box"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "text",
+    placeholder: "Enter name:",
     value: name,
     onChange: setName,
     onKeyDown: handleKeyDown
@@ -8016,7 +8019,9 @@ function InputBox({
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     className: "shuffle-button",
     onClick: handleShuffleClick
-  }, "Shuffle"));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "lnr lnr-magic-wand"
+  }))));
 }
 
 /***/ }),
@@ -8232,9 +8237,9 @@ function Title() {
   const day = getDayInString(date.getDay());
   const month = getMonthInString(date.getMonth());
   const today = `${day}, ${month} ${date.getDate()}`;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
     className: "row title space-around align-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "LFZ Stand-up"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, today)));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "LFZ Stand-up"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, today));
 }
 
 /***/ })

@@ -54,11 +54,9 @@ export default function Title() {
     const month = getMonthInString(date.getMonth());
     const today = `${day}, ${month} ${date.getDate()}`
     return (
-        <div>
-            <div className="row title space-around align-center">
-                <h1>LFZ Stand-up</h1>
-                <h1>{today}</h1>
-            </div>
-        </div>
+        <nav className="row title space-around align-center">
+            <h1>LFZ Stand-up</h1>
+            <h4>{today}</h4>
+        </nav>
     )
 }
