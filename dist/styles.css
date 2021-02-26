@@ -32,8 +32,9 @@ li {
 }
 
 .input-box {
-    margin: 2rem 0rem;
-    text-align: center;
+    margin: 2rem auto;
+    width: 80%;
+    height: 2.5rem;
     display: flex;
     justify-content: center;
 }
@@ -41,6 +42,22 @@ li {
 .input-box > input,
 .input-box > button {
     font-size: 1.6rem;
+}
+
+.input-box > input {
+    width: 70%;
+}
+
+.input-box > button {
+    width: 15%;
+    max-width: 3rem;
+    margin-left: .25rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .shuffled-list {
@@ -51,10 +68,6 @@ li {
 .green-button {
     background-color: #28A745;
     border: 2px solid #28A745;
-    border-radius: 1px;
-    cursor: pointer;
-    padding-top: 0.25rem;
-    transition: 0.2s;
 }
 
 .green-button:hover {

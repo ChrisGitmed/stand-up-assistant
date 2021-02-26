@@ -8002,9 +8002,12 @@ function InputBox({
   handleShuffleClick
 }) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "input-box"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "text",
+    placeholder: "Enter name:",
     value: name,
     onChange: setName,
     onKeyDown: handleKeyDown
@@ -8016,7 +8019,9 @@ function InputBox({
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     className: "shuffle-button",
     onClick: handleShuffleClick
-  }, "Shuffle"));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    class: "lnr lnr-magic-wand"
+  }))));
 }
 
 /***/ }),
