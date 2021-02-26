@@ -8020,7 +8020,7 @@ function InputBox({
     className: "shuffle-button",
     onClick: handleShuffleClick
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    class: "lnr lnr-magic-wand"
+    className: "lnr lnr-magic-wand"
   }))));
 }
 

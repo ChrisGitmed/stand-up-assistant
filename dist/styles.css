@@ -52,8 +52,9 @@ li {
     width: 15%;
     max-width: 3rem;
     margin-left: .25rem;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
+    border: none;
     transition: 0.2s;
     display: flex;
     justify-content: center;
@@ -67,27 +68,19 @@ li {
 
 .green-button {
     background-color: #28A745;
-    border: 2px solid #28A745;
 }
 
 .green-button:hover {
-    background-color: #32d658;
-    border: 2px solid #32d658;
+    background-color: #39f164;
     transition: 0.2s;
 }
 
 .shuffle-button {
-    background-color: #FFF;
-    border: 1px solid #343A3F;
-    border-radius: 5px;
-    margin-left: .25rem;
-    transition: 0.2s;
-    padding: .2rem;
+    background-color: #a8dadc;
 }
 
 .shuffle-button:hover {
-    background-color: #ddd;
-    cursor: pointer;
+    background-color: #c1f8fa;
     transition: 0.2s;
 }
 
