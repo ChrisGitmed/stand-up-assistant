@@ -12,3 +12,9 @@ A small front-end React application built to assist in the hosting of the Alumni
 * HTML/CSS
 * Webpack
 * Babel
+
+### Preview
+
+<img
+  src="https://media.giphy.com/media/kbLRQbkW3hVHFDeVO3/giphy.gif"
+  width="400">
