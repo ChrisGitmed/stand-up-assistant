@@ -31,6 +31,11 @@ li {
     text-align: center;
 }
 
+.title > h4 {
+    padding-top: 0.35rem;
+    font-size: 1rem;
+}
+
 .input-box {
     margin: 2rem auto;
     width: 80%;
