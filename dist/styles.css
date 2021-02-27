@@ -2,6 +2,10 @@
     display: none !important;
 }
 
+input, button {
+    -webkit-tap-highlight-color: transparent;
+}
+
 body {
     background-color: #F8F9FA;
     margin: 0;
